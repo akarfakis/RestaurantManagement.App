@@ -7,6 +7,7 @@ public static class EndpointRegistrator
         endpoints.MapMenuItemEndpoints();
         endpoints.MapOrderEndpoints();
         endpoints.MapCustomerEndpoints();
+        endpoints.MapDeliveryStaffEndpoints();
     }
 }
 

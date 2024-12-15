@@ -11,5 +11,6 @@ public class AutoMapperProfile : Profile
         CreateMap<PostOrderItemContract, OrderItemDto>();
         CreateMap<PostMenuItemContract, MenuItemDto>();
         CreateMap<PostCustomerContract, CustomerDto>();
+        CreateMap<PostDeliveryStaffContract, DeliveryStaffDto>();
     }       
 }

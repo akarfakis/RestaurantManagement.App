@@ -17,5 +17,6 @@ public class AutoMapperProfile : Profile
         CreateMap<Customer, CustomerDto>().ReverseMap();
         CreateMap<MenuItem, MenuItemDto>().ReverseMap();
         CreateMap<OrderItem, OrderItemDto>().ReverseMap();
+        CreateMap<DeliveryStaff, DeliveryStaffDto>().ReverseMap();
     }
 }

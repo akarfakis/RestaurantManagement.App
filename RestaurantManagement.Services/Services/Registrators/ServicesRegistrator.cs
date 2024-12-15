@@ -12,5 +12,6 @@ public static class ServicesRegistrator
         services.AddOrderServices();
         services.AddMenuItemServices();
         services.AddCustomerServices();
+        services.AddDeliveryStaffServices();
     }
 }

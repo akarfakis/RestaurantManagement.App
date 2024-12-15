@@ -11,5 +11,6 @@ public static class ServicesRegistrator
         services.AddAutoMapper(typeof(AutoMapperProfile).Assembly);
         services.AddOrderServices();
         services.AddMenuItemServices();
+        services.AddCustomerServices();
     }
 }

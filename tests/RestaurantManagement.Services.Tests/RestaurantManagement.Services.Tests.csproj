@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RestaurantManagement.Services\RestaurantManagement.Services.csproj" />
+    <ProjectReference Include="..\..\src\RestaurantManagement.Services\RestaurantManagement.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>
